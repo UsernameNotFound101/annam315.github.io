@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;600&display=swap');
+
+:root{
+	--main-color: #1883ed;
+	--black: rgb(0, 0, 0);
+	--white: #fff;
+	--box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+	font-family: 'Comfortaa', cursive;
+	margin: 0px; padding: 0px;
+	box-sizing: border-box;
+	outline: none; border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+html {
+	font-size: 62%;
+	overflow-x: hidden;
+}
+
+section {
+	padding: 5rem 0%;
+	margin-left: 0px;
+}
+
+.header {
+	top: 0; left: 0; right: 0;
+	background-color: var(--white);
+	display: flex;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	box-shadow: var(--box-shadow);
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header .logo {
+	font-size: 3rem;
+	color: var(--black);
+}
+
+.header .navbar a {
+	font-size: 2rem;
+	margin-left: 2rem;
+	color: var(--black);
+}
+
+.header .navbar a:hover {
+	color: var(--main-color);
+}
+
+/* ------------------------------------------------- */
+
+/* Wallpaper if wanted */
+
+
+
+/* ------------------------------------------------- */
+
+
+/* brimstone q */
+.brim_info_q {
+	position: absolute;
+	font-size: 20px;
+}
+
+.brim_info_q h1 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.brim_info_q p {
+	text-align: left;
+	line-height: 2;
+	margin: 25px 50% 25px 2%;
+}
+
+.brim_info_q img {
+	position: absolute;
+	top: 3rem;
+	right: 100px;
+}
+
+/* brimstone e*/
+.brim_info_e {
+	position: absolute;
+	margin-top: 50rem;
+	font-size: 20px;
+}
+
+.brim_info_e h1 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.brim_info_e p {
+	text-align: left;
+	line-height: 2;
+	margin: 25px 50% 25px 2%;
+}
+
+.brim_info_e img {
+	position: absolute;
+	top: 3rem;
+	right: 75px;
+}
+
+/* brimstone c */
+.brim_info_c {
+	position: absolute;
+	margin-top: 100rem;
+	font-size: 20px;
+}
+
+.brim_info_c h1 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.brim_info_c p {
+	text-align: left;
+	line-height: 2;
+	margin: 25px 50% 25px 2%;
+}
+
+.brim_info_c img {
+	position: absolute;
+	top: 5rem;
+	right: 100px;
+}
+
+/* brimstone x */
+.brim_info_x {
+	position: absolute;
+	margin-top: 170rem;
+	font-size: 20px;
+}
+
+.brim_info_x h1 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.brim_info_x p {
+	text-align: left;
+	line-height: 2;
+	margin: 25px 50% 25px 2%;
+}
+
+.brim_info_x img {
+	position: absolute;
+	top: 3rem;
+	right: 100px;
+}
