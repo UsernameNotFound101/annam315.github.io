@@ -9,7 +9,7 @@
 
 *{
 	font-family: 'Comfortaa', cursive;
-	margin: 0px; padding: 0px;
+	margin: 0; padding: 0;
 	box-sizing: border-box;
 	outline: none; border: none;
 	text-decoration: none;
@@ -22,36 +22,32 @@ html{
 }
 
 section {
-	padding: 0rem 0%;
+	padding: 5rem 0%;
 	margin-left: 0px;
 }
 
-header {
+.header {
 	position: relative;
-	top: 0;
-	left: 0;
-	width: 100%;
-	padding: 20px 100px;
+	top: 0; left: 0; right: 0;
+	z-index: 1000;
 	background: grey;
 	display: flex;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	align-items: center;
 	justify-content: space-between;
-	align-items: right;
 }
 
-.navigation a {
-	position: relative;
-	font-size: 2.0em;
+.header .navigation a {
+	font-size: 2rem;
 	color: white;
-	margin-left: 40px;
-	left: 96rem;
-	top: 15px;
+	margin-left: 2rem; /* 40px */
 }
 
-.navigation h1 {
+.header h1 {
 	position: relative;
 	font-size: 2.0em;
 	color: black;
-	right: 10rem;
 	bottom: 5px;
 }
 
@@ -74,12 +70,12 @@ header {
 .pb_history h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .pb_history p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
@@ -99,12 +95,12 @@ header {
 .Amendment h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .Amendment p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
@@ -125,12 +121,12 @@ header {
 .pb_Current_Example h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .pb_Current_Example p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
@@ -150,12 +146,12 @@ header {
 .pb_conclusion h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .pb_conclusion p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
@@ -178,19 +174,20 @@ header {
 .ms_about h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .ms_about p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
 .ms_about pre {
 	margin: auto;
-	width: 90%;
+	width: 100%;
 	line-height: 2;
+	display: inline;
 }
 
 .ms_about img {
@@ -210,19 +207,20 @@ header {
 .ms_police_bruatality h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .ms_police_bruatality p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
 .ms_police_bruatality pre {
 	margin: auto;
-	width: 90%;
+	width: 100%;
 	line-height: 2;
+	display: inline;
 }
 
 /* mass incarceration /police brutality facts */
@@ -235,13 +233,14 @@ header {
 .ms_Police_Bruatality_Facts h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .ms_Police_Bruatality_Facts pre {
-	margin-right: auto;
-  	width: 90%;
+	margin: auto;
+  	width: 100%;
 	line-height: 2;
+	display: inline;
 }
 
 .ms_Police_Bruatality_Facts img {
@@ -261,19 +260,20 @@ header {
 .ms_Victims h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .ms_Victims p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
 .ms_Victims pre {
-	margin-right: auto;
-  	width: 90%;
+	margin: auto;
+  	width: 100%;
 	line-height: 2;
+	display: inline;
 }
 
 .ms_Victims img {
@@ -302,12 +302,12 @@ header {
 .Covid_19 h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .Covid_19 p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
@@ -321,12 +321,12 @@ header {
 .mental_health h2 {
 	text-align: left;
 	font-size: 30px;
-	margin: 40px 50% 25px 2%;
+	margin: 40px 50% 25px 0%;
 }
 
 .mental_health p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
@@ -343,15 +343,9 @@ header {
 	font-size: 18px;
 }
 
-.solution h2 {
-	text-align: left;
-	font-size: 30px;
-	margin: 40px 50% 25px 2%;
-}
-
 .solution p {
 	margin: auto;
-  	width: 90%;
+  	width: auto;
 	line-height: 2;
 }
 
