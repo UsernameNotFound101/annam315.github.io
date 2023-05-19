@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;600&display=swap');
+
+:root{
+	--main-color: #1883ed;
+	--black: rgb(0, 0, 0);
+	--white: #fff;
+	--box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+	font-family: 'Comfortaa', cursive;
+	margin: 0px; padding: 0px;
+	box-sizing: border-box;
+	outline: none; border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+html{
+	font-size: 62%;
+	overflow-x: hidden;
+}
+
+section {
+	padding: 0rem 0%;
+	margin-left: 0px;
+}
+
+header {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	background: grey;
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+}
+
+.navigation a {
+	position: relative;
+	font-size: 2.0em;
+	color: white;
+	margin-left: 40px;
+	left: 96rem;
+	top: 15px;
+}
+
+.navigation h1 {
+	position: relative;
+	font-size: 2.0em;
+	color: black;
+	right: 10rem;
+	bottom: 5px;
+}
+
+/* ------------------------------------------------- */
+
+/* Wallpaper if wanted */
+
+
+
+/* ------------------------------------------------- */
+
+/* Police brutality */
+/* history */
+.pb_history {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.pb_history h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.pb_history p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.pb_history img {
+	margin-top: 50px;
+  	margin-left: 23rem;
+  	margin-right: auto;
+}
+
+/* 13th Amendment */
+.Amendment {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.Amendment h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.Amendment p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.Amendment img {
+	display: block;
+	margin-top: 50px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/* Current_Example */
+.pb_Current_Example {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.pb_Current_Example h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.pb_Current_Example p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.pb_Current_Example img {
+	margin-top: 50px;
+  	margin-left: 23rem;
+  	margin-right: auto;
+}
+
+/* conclusion */
+.pb_conclusion {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.pb_conclusion h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.pb_conclusion p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.pb_conclusion img {
+	margin-top: 50px;
+	margin-left: 23rem;
+  	margin-right: auto;
+}
+
+/* ------------------------------------------------- */
+
+/* mass incarceration */
+/* about */
+.ms_about {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.ms_about h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.ms_about p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.ms_about pre {
+	margin: auto;
+	width: 90%;
+	line-height: 2;
+}
+
+.ms_about img {
+	display: block;
+	margin-top: 50px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/* mass incarceration/ police brutality */
+.ms_police_bruatality {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.ms_police_bruatality h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.ms_police_bruatality p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.ms_police_bruatality pre {
+	margin: auto;
+	width: 90%;
+	line-height: 2;
+}
+
+/* mass incarceration /police brutality facts */
+.ms_Police_Bruatality_Facts {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.ms_Police_Bruatality_Facts h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.ms_Police_Bruatality_Facts pre {
+	margin-right: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.ms_Police_Bruatality_Facts img {
+	display: block;
+	margin-top: 50px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/* victims */
+.ms_Victims {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.ms_Victims h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.ms_Victims p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.ms_Victims pre {
+	margin-right: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.ms_Victims img {
+	display: block;
+	margin-top: 50px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.ms_Victims iframe {
+	margin-top: 0rem;
+	display: block;
+	width: 500px;
+	height: 281px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Covid 19 */
+.Covid_19 {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.Covid_19 h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.Covid_19 p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+/* Mental Health */
+.mental_health {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.mental_health h2 {
+	text-align: left;
+	font-size: 30px;
+	margin: 40px 50% 25px 2%;
+}
+
+.mental_health p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.mental_health img {
+	margin-top: 50px;
+	margin-left: 17rem;
+  	margin-right: auto;
+}
+
+/* solution */
+.solution {
+	position: relative;
+	margin-top: 0rem;
+	font-size: 18px;
+}
+
+.solution p {
+	margin: auto;
+  	width: 90%;
+	line-height: 2;
+}
+
+.solution img {
+	margin-top: 0px;
+  	margin-left: 10rem;
+}
