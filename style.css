@@ -272,8 +272,8 @@ section {
 .ms_Victims pre {
 	margin: auto;
   	width: 100%;
-	line-height: 2;
-	display: inline;
+  	white-space: normal;
+  	line-height: 2;
 }
 
 .ms_Victims img {
